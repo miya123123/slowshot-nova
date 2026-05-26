@@ -41,7 +41,7 @@ Slowshot Nova は、スワイプ中だけ時間を遅くできる、ブラウザ
 ## 使用技術
 
 - Codex (GPT 5.5): コード生成、バランス調整、テスト、README 作成
-- gpt-image-2: ゲーム用画像アセットの生成
+- gpt-image-2(もしくはgpt-image-1.5): ゲーム用画像アセット（自機、敵、弾、背景）の生成
 - フロントエンド: TypeScript / Vite / HTML Canvas
 - Playwright: テスト
 
