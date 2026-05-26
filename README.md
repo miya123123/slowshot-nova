@@ -47,7 +47,7 @@ Slowshot Nova は、スワイプ中だけ時間を遅くできるブラウザ向
 
 ## gpt-image-2 で作成した画像
 
-以下の画像アセットを gpt-image-2 で作成し、ゲーム内スプライトとして使用しています。
+以下の画像アセットを gpt-image-2 で作成し、ゲーム内画像として使用しています。
 
 | 画像 | 用途 | パス |
 | --- | --- | --- |
@@ -56,6 +56,7 @@ Slowshot Nova は、スワイプ中だけ時間を遅くできるブラウザ向
 | ally-ship.png | 自機スプライト | `assets/generated/ally-ship.png` |
 | enemy-drone.png | 敵ドローンスプライト | `assets/generated/enemy-drone.png` |
 | bullet-projectile.png | 弾スプライト | `assets/generated/bullet-projectile.png` |
+| prism-orchard-bg.png | 背景画像 | `assets/generated/prism-orchard-bg.png` |
 
 ## ローカル実行
 
