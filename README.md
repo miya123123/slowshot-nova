@@ -51,12 +51,12 @@ Slowshot Nova は、スワイプ中だけ時間を遅くできるブラウザ向
 
 | 画像 | 用途 | パス |
 | --- | --- | --- |
-| combat-sprites.png | 自機、敵、弾をまとめたスプライトアトラス | `assets/generated/combat-sprites.png` |
-| combat-sprites-key.png | スプライトアトラス確認用キー画像（ゲーム内では未使用） | `assets/generated/combat-sprites-key.png` |
-| ally-ship.png | 自機スプライト | `assets/generated/ally-ship.png` |
-| enemy-drone.png | 敵ドローンスプライト | `assets/generated/enemy-drone.png` |
-| bullet-projectile.png | 弾スプライト | `assets/generated/bullet-projectile.png` |
-| prism-orchard-bg.png | 背景画像 | `assets/generated/prism-orchard-bg.png` |
+| combat-sprites.png | 自機、敵、弾をまとめたスプライトアトラス | `public/assets/generated/combat-sprites.png` |
+| combat-sprites-key.png | スプライトアトラス確認用キー画像（ゲーム内では未使用） | `public/assets/generated/combat-sprites-key.png` |
+| ally-ship.png | 自機スプライト | `public/assets/generated/ally-ship.png` |
+| enemy-drone.png | 敵ドローンスプライト | `public/assets/generated/enemy-drone.png` |
+| bullet-projectile.png | 弾スプライト | `public/assets/generated/bullet-projectile.png` |
+| prism-orchard-bg.png | 背景画像 | `public/assets/prism-orchard-bg.png` |
 
 ## ローカル実行
 
