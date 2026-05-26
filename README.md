@@ -1,20 +1,20 @@
 # Slowshot Nova
 
-Slowshot Nova は、スワイプ中だけ時間を遅くできるブラウザ向け弾幕サバイバルゲームです。
+Slowshot Nova は、スワイプ中だけ時間を遅くできる、ブラウザ向けの弾幕サバイバルゲームです。
 
-公開URL: https://miya123123.github.io/slowshot-nova/
+公開 URL: https://miya123123.github.io/slowshot-nova/
 
 ## ゲーム概要
 
-プレイヤーは画面下部の自機を操作し、上空から出現する敵と敵弾を避けながら 20 秒間の生存を目指します。
+プレイヤーは画面下部の自機を操作し、上空から出現する敵や敵弾を避けながら、20 秒間の生存を目指します。
 
-スワイプまたは Shift キーを押している間は時間がスローになり、敵や敵弾の動きが遅くなります。スロー中に位置を調整し、指やキーを離した瞬間にカウンターショットで反撃します。
+スワイプ、または Shift キーを押している間は時間がスローになり、敵や敵弾の動きが遅くなります。スロー中に位置を調整し、指やキーを離した瞬間にカウンターショットで反撃します。
 
 ## ルール
 
 - 20 秒間生き残るとクリアです。
 - 敵本体または敵弾に 1 回でも当たるとゲームオーバーです。
-- スロー使用可能時間には残量があります。
+- スローには使用可能時間があり、残量がなくなると一時的に使えなくなります。
 - スロー残量は、スローを使っていない通常時間中に回復します。
 - スロー中は敵だけでなく、自分の弾やゲーム内時間も遅くなります。
 - 敵弾を撃ち消すとスコアが加算されます。
@@ -40,19 +40,19 @@ Slowshot Nova は、スワイプ中だけ時間を遅くできるブラウザ向
 
 ## 使用技術
 
-- Codex(GPT 5.5): コード生成、バランス調整、テスト、README作成
+- Codex (GPT 5.5): コード生成、バランス調整、テスト、README 作成
 - gpt-image-2: ゲーム用画像アセットの生成
-- フロントエンド: TypeScript/Vite/HTML Canvas
+- フロントエンド: TypeScript / Vite / HTML Canvas
 - Playwright: テスト
 
 ## gpt-image-2 で作成した画像
 
-以下の画像アセットを gpt-image-2 で作成し、ゲーム内画像として使用しています。
+以下の画像アセットを gpt-image-2 で作成し、ゲーム内で使用しています。
 
 | 画像 | 用途 | パス |
 | --- | --- | --- |
 | combat-sprites.png | 自機、敵、弾をまとめたスプライトアトラス | `public/assets/generated/combat-sprites.png` |
-| combat-sprites-key.png | スプライトアトラス確認用キー画像（ゲーム内では未使用） | `public/assets/generated/combat-sprites-key.png` |
+| combat-sprites-key.png | スプライトアトラス確認用のキー画像（ゲーム内では未使用） | `public/assets/generated/combat-sprites-key.png` |
 | ally-ship.png | 自機スプライト | `public/assets/generated/ally-ship.png` |
 | enemy-drone.png | 敵ドローンスプライト | `public/assets/generated/enemy-drone.png` |
 | bullet-projectile.png | 弾スプライト | `public/assets/generated/bullet-projectile.png` |
