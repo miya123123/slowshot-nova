@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Slowshot Nova, a browser bullet-hell survival game with swipe slow-motion and release counters."
+    />
+    <title>Slowshot Nova</title>
+  </head>
+  <body>
+    <main class="game-shell" aria-label="Slowshot Nova game">
+      <canvas id="game" aria-label="Game canvas" tabindex="0"></canvas>
+
+      <section class="hud" aria-label="Game status">
+        <div>
+          <span>Cleared</span>
+          <strong id="score">0</strong>
+        </div>
+        <div>
+          <span>Flow</span>
+          <strong id="combo">LIVE</strong>
+        </div>
+        <div>
+          <span>Time</span>
+          <strong id="time">20.0</strong>
+        </div>
+        <div>
+          <span>Best</span>
+          <strong id="best">0</strong>
+        </div>
+      </section>
+
+      <section class="dash-panel" aria-label="Slow reserve">
+        <div class="dash-copy">
+          <span>Slow reserve</span>
+        </div>
+        <div class="dash-track">
+          <span id="dash-fill"></span>
+        </div>
+      </section>
+
+      <section id="overlay" class="overlay">
+        <div class="overlay-copy">
+          <p class="eyebrow">Slowshot Nova</p>
+          <h1 id="overlay-title">Survive the bullet rain.</h1>
+          <p id="overlay-body">
+            Hold a swipe to slow time by 80% while the reserve lasts. Release to counter; stop slowing to recharge.
+          </p>
+          <button id="primary-action" type="button">Start</button>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
