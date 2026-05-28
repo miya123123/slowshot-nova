@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/assets/title.png" alt="Slowshot Nova タイトル画像" width="100%">
+</p>
+
 # Slowshot Nova
 
 Slowshot Nova は、スワイプ中だけ時間を遅くできる、ブラウザ向けの弾幕サバイバルゲームです。
